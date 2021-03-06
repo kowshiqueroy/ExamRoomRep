@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button b1, b2 ;
+    Button b1, b2,b3 ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,12 +17,25 @@ public class MainActivity extends AppCompatActivity {
 
         b1= (Button) findViewById(R.id.button);
         b2= (Button) findViewById(R.id.button2);
+        b3= (Button) findViewById(R.id.button9);
 
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i1= new Intent(MainActivity.this,home.class);
+                startActivity(i1);
+
+            }
+
+
+        });
+
+
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i1= new Intent(MainActivity.this,CamScanner.class);
                 startActivity(i1);
 
             }
