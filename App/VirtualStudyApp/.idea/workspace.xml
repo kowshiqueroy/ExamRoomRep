@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9643f5f2-3edc-4b5c-88c7-bb5bb98f0e76" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/VirtualStudyApp/app/release/app-release.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VirtualStudyApp/app/release/output-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualStudyApp/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualStudyApp/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualStudyApp/app/src/main/java/com/example/virtualstudyapp/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualStudyApp/app/src/main/java/com/example/virtualstudyapp/LoginActivity.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/VirtualStudyApp" />
+  </component>
+  <component name="ProjectId" id="1q24DBk7yU9iJazd9NmPk1DLrAO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9643f5f2-3edc-4b5c-88c7-bb5bb98f0e76" name="Default Changelist" comment="" />
+      <created>1616264228377</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616264228377</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="618" y="295" key="#Notifications" timestamp="1616264260911">
+      <screen x="0" y="0" width="1465" height="864" />
+    </state>
+    <state x="618" y="295" key="#Notifications/0.0.1465.864@0.0.1465.864" timestamp="1616264260911" />
+  </component>
+</project>
