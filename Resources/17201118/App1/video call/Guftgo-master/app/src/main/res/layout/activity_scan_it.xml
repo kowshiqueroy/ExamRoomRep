@@ -1,42 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".ScanIt">
+    tools:context=".home">
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/meeting" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/denk_one"
+                android:gravity="center"
+                android:text="ScanIt"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_centerInParent="true"
-        android:textSize="10dp"
-        android:layout_width="wrap_content"
+        android:onClick="openGallery"
+        android:text="gallery"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="gallery" />
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/denk_one"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+
+        />
 
     <Button
         android:id="@+id/button3"
-        android:layout_centerInParent="true"
-        android:layout_above="@id/button2"
-        android:textSize="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:onClick="openCamera"
-        android:text="camera" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
+        android:text="camera"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:textColorHighlight="@color/catalyst_redbox_background"
-        android:textColor="@color/cardview_light_background"
-        android:layout_above="@id/button3"
-        android:textSize="40dp"
-        android:onClick="openGallery"
-        android:text="Scanit" />
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/denk_one"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"/>
 
 
-</RelativeLayout>
+
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
