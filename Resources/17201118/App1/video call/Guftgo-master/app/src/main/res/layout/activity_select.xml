@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".select">
 
 
@@ -59,7 +60,7 @@
                 android:textColor="@android:color/white" />
 
             <Button
-                android:id="@+id/createBtn2"
+                android:id="@+id/createbtn"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginTop="10dp"

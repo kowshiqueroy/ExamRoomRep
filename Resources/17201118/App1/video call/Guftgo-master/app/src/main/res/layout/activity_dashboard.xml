@@ -55,7 +55,7 @@
                 android:background="@drawable/textbox"
                 android:ems="10"
                 android:gravity="center"
-                android:hint="Secret Code"
+
                 android:inputType="textPersonName"
                 android:padding="10dp" />
 

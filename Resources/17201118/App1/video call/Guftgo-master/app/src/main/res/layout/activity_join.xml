@@ -38,19 +38,23 @@
                 android:layout_marginBottom="20dp"
                 android:fontFamily="@font/denk_one"
                 android:gravity="center"
-                android:text="ExamRoom"
+                android:text="Join"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
+            <EditText
+                android:id="@+id/institute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Institute/course" />
 
-
-
-
-
-
-
-
-
+            <Button
+                android:id="@+id/joinSet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Join Now" />
 
 
         </LinearLayout>
