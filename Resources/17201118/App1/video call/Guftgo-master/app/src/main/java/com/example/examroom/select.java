@@ -1,14 +1,14 @@
-package com.example.guftgo;
+package com.example.examroom;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class create extends AppCompatActivity {
+public class select extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_create);
+        setContentView(R.layout.activity_select);
     }
 }

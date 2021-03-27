@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".ScanIt">
 
 
@@ -30,11 +31,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:textColorHighlight="@color/cardview_shadow_start_color"
+        android:textColorHighlight="@color/catalyst_redbox_background"
+        android:textColor="@color/cardview_light_background"
         android:layout_above="@id/button3"
         android:textSize="40dp"
         android:onClick="openGallery"
-        android:text="Scan it" />
+        android:text="Scanit" />
 
 
 </RelativeLayout>

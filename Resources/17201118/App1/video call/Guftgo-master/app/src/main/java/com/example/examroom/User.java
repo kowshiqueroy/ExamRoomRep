@@ -1,4 +1,4 @@
-package com.example.guftgo;
+package com.example.examroom;
 
 public class User {
     private String name, email, pass;

@@ -1,4 +1,4 @@
-package com.example.guftgo;
+package com.example.examroom;
 
 import org.junit.Test;
 
