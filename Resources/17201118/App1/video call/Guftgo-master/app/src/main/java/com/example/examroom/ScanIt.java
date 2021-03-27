@@ -1,4 +1,4 @@
-package com.example.guftgo;
+package com.example.examroom;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;

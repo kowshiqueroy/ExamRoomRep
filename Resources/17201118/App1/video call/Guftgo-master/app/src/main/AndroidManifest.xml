@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.guftgo">
+    package="com.example.examroom">
     <uses-permission android:name="android.permission.CAMERA"></uses-permission>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
@@ -12,20 +12,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ScanIt"></activity>
-        <activity android:name=".create" />
-        <activity android:name=".join" />
-        <activity android:name=".select" />
-        <activity android:name=".home" />
-        <activity android:name=".DashboardActivity" />
+        <activity android:name="com.example.examroom.ScanIt"></activity>
+        <activity android:name="com.example.examroom.create" />
+        <activity android:name="com.example.examroom.join" />
+        <activity android:name="com.example.examroom.select" />
+        <activity android:name="com.example.examroom.home" />
+        <activity android:name="com.example.examroom.DashboardActivity" />
         <activity
-            android:name=".SignupActivity"
+            android:name="com.example.examroom.SignupActivity"
             android:label="New Account" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.example.examroom.LoginActivity"
             android:label="Login" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.examroom.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

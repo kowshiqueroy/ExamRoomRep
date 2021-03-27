@@ -1,4 +1,4 @@
-package com.example.guftgo;
+package com.example.examroom;
 
 import androidx.appcompat.app.AppCompatActivity;
 

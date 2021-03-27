@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.example.examroom;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -60,5 +61,8 @@ public class MainActivity extends AppCompatActivity {
     private void gotoUrl(String s) {
         Uri uri = Uri.parse(s);
         startActivity(new Intent (Intent.ACTION_VIEW,uri));
+=======
+cgjj
+>>>>>>> 544cfc2ad000053845395f6dabe6bdee1e74b572
     }
 }
