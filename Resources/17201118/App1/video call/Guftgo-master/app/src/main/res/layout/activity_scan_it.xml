@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScanIt">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_centerInParent="true"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gallery" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/button2"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openCamera"
+        android:text="camera" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColorHighlight="@color/cardview_shadow_start_color"
+        android:layout_above="@id/button3"
+        android:textSize="40dp"
+        android:onClick="openGallery"
+        android:text="Scan it" />
+
+
+</RelativeLayout>
