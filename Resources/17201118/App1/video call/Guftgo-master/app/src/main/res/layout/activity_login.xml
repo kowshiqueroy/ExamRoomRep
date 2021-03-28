@@ -51,6 +51,7 @@
                 android:drawablePadding="20dp"
                 android:ems="10"
                 android:hint="Email Address"
+                android:text="k@gmail.com"
                 android:inputType="textEmailAddress"
                 android:padding="10dp" />
 
@@ -64,6 +65,7 @@
                 android:drawablePadding="20dp"
                 android:ems="10"
                 android:hint="Password"
+                android:text="kkkkkk"
                 android:inputType="textPassword"
                 android:padding="10dp" />
 

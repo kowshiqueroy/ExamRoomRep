@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple"
+    android:background="@color/cardview_shadow_start_color"
     tools:context=".MainActivity">
 
     <ImageView
@@ -14,9 +14,10 @@
         android:layout_marginStart="135dp"
         android:layout_marginTop="239dp"
         android:layout_marginEnd="156dp"
-        android:layout_marginBottom="41dp"
+        android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toTopOf="@+id/progressBar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/meeting" />
@@ -24,10 +25,11 @@
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
+        android:layout_width="118dp"
+        android:layout_height="80dp"
         android:layout_marginStart="181dp"
-        android:layout_marginTop="41dp"
+        android:layout_marginTop="4dp"
+
         android:layout_marginEnd="182dp"
         android:layout_marginBottom="58dp"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
@@ -42,10 +44,35 @@
         android:layout_marginStart="104dp"
         android:layout_marginTop="79dp"
         android:layout_marginEnd="104dp"
-        android:layout_marginBottom="246dp"
+        android:layout_marginBottom="20dp"
         android:text="Developed by Kowshique and Iqbal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+        app:layout_constraintTop_toBottomOf="@+id/progressBar"
+
+        android:fontFamily="@font/denk_one"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="302dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="573dp"
+        android:fontFamily="@font/denk_one"
+        android:gravity="center"
+        android:text="ExamRoomBeta"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,6 +8,7 @@ import android.os.Handler;
 
 public class MainActivity extends AppCompatActivity {
     public static String mText;
+    public static boolean jb=false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

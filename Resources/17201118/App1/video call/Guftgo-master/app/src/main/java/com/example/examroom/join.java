@@ -15,6 +15,7 @@ public class join extends AppCompatActivity {
 
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +29,7 @@ public class join extends AppCompatActivity {
                 mEdit   = (EditText)findViewById(R.id.institute);
 
                 MainActivity.mText=mEdit.getText().toString();
-
+MainActivity.jb=true;
                 Intent i1= new Intent(join.this,DashboardActivity.class);
 
                 startActivity(i1);

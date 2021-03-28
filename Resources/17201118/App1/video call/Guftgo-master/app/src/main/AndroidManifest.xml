@@ -7,23 +7,24 @@
 
     <application
         android:allowBackup="true"
+
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.examroom.ScanIt"></activity>
-        <activity android:name="com.example.examroom.create" />
-        <activity android:name="com.example.examroom.join" />
-        <activity android:name="com.example.examroom.select" />
-        <activity android:name="com.example.examroom.home" />
-        <activity android:name="com.example.examroom.DashboardActivity" />
+        <activity android:name="com.example.examroom.ScanIt" android:label="Scanit"  android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name="com.example.examroom.create" android:label="Create"  android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.example.examroom.join"  android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.example.examroom.select" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.example.examroom.home" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.example.examroom.DashboardActivity" android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name="com.example.examroom.SignupActivity"
-            android:label="New Account" />
+            android:label="New Account" android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.example.examroom.LoginActivity"
-            android:label="Login" />
+            android:label="Login" android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name="com.example.examroom.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
